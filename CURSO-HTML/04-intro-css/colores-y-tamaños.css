@@ -1,0 +1,54 @@
+/* Estilos para colores */
+
+.colores {
+    color: aqua;
+}
+
+.color-hexadecimal {
+    color: #e85d75;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 1);
+}
+
+/* Fondos */
+
+.fondo {
+   /* background-color: rgb(31, 44, 223); */
+    background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+    background-position: left botton;
+}
+
+.fondo-interno {
+    background-image: url("/intro-css-04/img/fondo.jpg");
+    background-position: left bottom;
+}
+
+/* Tamaños */
+
+.ancho {
+    background-color: chartreuse;
+    width: 100px;
+}
+
+.alto {
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /* padding: 10px 20px 30px 40px;*/
+    margin: 10px;
+    /* margin: 10px 20px 30px 40px;*/
+}
